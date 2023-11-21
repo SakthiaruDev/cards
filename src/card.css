@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col{
+    width: 25%;
+    padding: 0 15px;
+}
+.imgsec img{
+    width: 90%;
+}
+.card{
+    margin: 20px 0;
+    box-shadow: 0 0 4px;
+    padding: 10px;
+}
