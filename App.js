@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Cards from './cards';
+import Use from './Usestate';
 function App() {
 
   const web=[
@@ -62,11 +63,15 @@ function App() {
     },
   ]
 
+   
+     
   return (
     <div className="App">
       <Cards img={web}/>
-    </div>
+      <Use/>
+      </div>
   );
 }
+
 
 export default App;
